@@ -6,4 +6,5 @@ class consultas_Serializer(ModelSerializer):
     class Meta:
 
         model = Consultas
-        fields = ('id', 'nome', 'descricao')
+        # fields = ('id', 'nome', 'descricao')
+        fields = '__all__'
